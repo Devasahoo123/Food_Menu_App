@@ -1,0 +1,119 @@
+* {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Header {
+    margin-top: 2rem; /* Adjust the top margin as needed */
+    text-align: center;
+}
+
+.main-heding {
+    color: rgb(206, 166, 80);
+    
+}
+
+.menu-tab {
+    display: flex;
+    padding: 0 20% 0 20%;
+    justify-content: space-around;
+    margin: 1% 5% 0 5%; /* Adjust the margin as needed */
+}
+
+.btn {
+    padding: 1.5%;
+    background-color: rgb(86, 101, 175);
+    border-radius: 15%;
+    color: aliceblue;
+}
+
+.btn:hover {
+    background-color: rgb(250, 234, 5);
+    cursor: pointer;
+}
+
+.item1 {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    max-width: 400px; /* Set a maximum width if needed */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* Media Queries for responsive design */
+@media (min-width: 576px) {
+    .menu-tab {
+        margin: 1% 10% 0 10%; /* Adjust the margin for medium-sized screens */
+    }
+}
+
+@media (min-width: 768px) {
+    .item1 {
+        flex-direction: row;
+    }
+    .menu-tab {
+        margin: 1% 10% 0 10%; /* Adjust the margin for larger screens */
+    }
+}
+.img-fluid{
+    width: 150px;
+    height: 200px;
+    
+}
+.main-title {
+    justify-content: space-between;
+    margin-left: 15%;
+}
+
+.namer{
+    text-transform: capitalize;
+    justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(4, 4, 4);
+}
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media(min-width: 567px )and (max-width: 908px){
+    .menu-item{
+        margin-left: 10%;
+        
+    }
+}
+
+
+
+.dis{
+    margin-top: 5%;
+    margin-left: 15%;
+}
+.price-book-divide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 15%;
+    color:rgb(217, 33, 33);
+}
+.btn1{
+    padding: 0.5%;
+    width: 120%;
+    height: 30px;
+    background-color: rgb(28, 181, 223);
+    border-radius: 10px;
+    color: white;
+}
+.btn1:hover{
+    background-color: rgb(72, 199, 4);
+    cursor: pointer;
+}
